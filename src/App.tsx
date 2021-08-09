@@ -1,10 +1,17 @@
 import React from "react";
 
+//component
+import Layout from "./layout";
+
 //styles
-import "./styles/GlobalStyles.scss"
+import "./styles/GlobalStyles.scss";
 
 function App() {
-  return <div className="App">e nios</div>;
+  return (
+    <>
+     <Layout />
+    </>
+  );
 }
 
 export default App;
