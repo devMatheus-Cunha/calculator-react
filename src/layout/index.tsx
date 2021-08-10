@@ -2,7 +2,7 @@ import React from "react";
 
 // components
 import Button from "../components/Button";
-
+import Display from "../components/Display";
 // import data
 import labelsButton from "./data";
 
@@ -15,11 +15,10 @@ const Layout: React.FC = () => {
       <h1>Calculator</h1>
 
       <div className={styles.content}>
-        {
-          labelsButton.map(label => (
-            <Button label={label} />
-          ))
-        }
+        <Display value={100} />
+        {labelsButton.map((label) => (
+          <Button label={label} />
+        ))}
       </div>
     </div>
   );
