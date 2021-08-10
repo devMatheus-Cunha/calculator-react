@@ -1,2 +1,20 @@
-const labelsButton = ["AC", "/", "7", "8", "9", "*", "4", "5", "6", "-", "1", "2", "3", "+", "0", ".", "="]
+const labelsButton = [
+  { label: "AC", style:"operation"},
+  { label: "/", style:"operation"},
+  { label: "7", style:""},
+  { label: "8", style:""},
+  { label: "9", style:""},
+  { label: "*", style:"operation"},
+  { label: "4", style:""},
+  { label: "5", style:""},
+  { label: "6", style:""},
+  { label: "-", style:"operation"},
+  { label: "1", style:""},
+  { label: "2", style:""},
+  { label: "3", style:""},
+  { label: "+", style:"operation"},
+  { label: "0", style:""},
+  { label: ".", style:"operation"},
+  { label: "=", style:"operation"},
+]
 export default labelsButton
