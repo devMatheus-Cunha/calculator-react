@@ -23,5 +23,8 @@
     overflow: hidden;
     background-color: red;
 
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 48px);
   }
 }
