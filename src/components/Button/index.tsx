@@ -8,7 +8,7 @@ interface ButtonProps {
   operation?: boolean;
   double?: boolean;
   triple?: boolean;
-  click: (label: string) => void | undefined;
+  click: (label: string) => void;
 }
 
 const Button = ({ label, operation, double, triple, click }: ButtonProps) => {

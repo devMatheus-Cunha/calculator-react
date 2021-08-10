@@ -8,7 +8,7 @@ import Display from "../components/Display";
 import styles from "./styles.module.scss";
 
 //type
-type ValuesProps = {
+type stateInitialProps = {
   displayValue: string;
   clearDisplay: boolean;
   operation: null;
@@ -17,7 +17,7 @@ type ValuesProps = {
 };
 
 const Layout: React.FC = () => {
-  const [stateInitial, setStateInitial] = useState<ValuesProps>({
+  const [stateInitial, setStateInitial] = useState<stateInitialProps>({
     displayValue: "0",
     clearDisplay: false,
     operation: null,
@@ -35,7 +35,7 @@ const Layout: React.FC = () => {
       current: 0,
     });
   }
-  
+
   function setOperation(operation: string) {
     console.log(operation);
   }
